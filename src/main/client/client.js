@@ -2,7 +2,9 @@ var axios = require('axios');
 var https = require('https');
 var fs = require('fs');
 
-var url = 'https://localhost:4321/currency-converter-1.0.0/services/CurrencyConverterService';
+// var url = 'http://localhost:4321/currency-converter-1.0.0/services/CurrencyConverterService';
+var url = 'http://currency-converter.westeurope.azurecontainer.io:4321/currency-converter-1.0.0/services/CurrencyConverterService';
+
 
 var payloadCurrenciesList =               
 '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cur="http://example.org/CurrencyConverter">'+

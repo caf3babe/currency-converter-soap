@@ -76,7 +76,7 @@
     <Connector
             protocol="org.apache.coyote.http11.Http11NioProtocol"
             port="4321" maxThreads="200"
-            scheme="https" secure="true" SSLEnabled="true"
+            scheme="https" secure="true" SSLEnabled="false"
             keystoreFile="conf/localhost.jks" keystorePass="group1"
             clientAuth="false" sslProtocol="TLS"/>
 
